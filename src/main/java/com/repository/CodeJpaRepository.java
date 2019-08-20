@@ -13,5 +13,3 @@ public interface CodeJpaRepository extends JpaRepository<Code, Long> {
     Optional<Code> findCodeByUserOrderByIdDesc(User user);
 
 }
-
-
